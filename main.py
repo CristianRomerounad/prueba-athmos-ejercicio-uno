@@ -32,6 +32,7 @@ class OrdersManager:
         # self.__fake_save_on_db(order=order)
         # self.__orders_processed += 1
         self.__fake_save_on_db(order=self.__orders)
+
         self.__orders_processed += 1
 
         if datetime.now() > self.__last_printed_log:
